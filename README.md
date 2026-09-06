@@ -15,11 +15,20 @@ Este proyecto desarrolla un flujo de trabajo analítico y predictivo para estima
 * **Regresión Regularizada (Ridge vs. Lasso):** 
   * **Ridge (L2):** Maneja eficazmente la multicolinealidad de las variables meteorológicas (como la correlación entre temperatura y punto de rocío) distribuyendo los pesos entre ellas sin eliminarlas.
   * **Lasso (L1):** Forzó coeficientes a cero, actuando como selector automático de características para eliminar variables ruidosas y ofrecer un modelo más interpretable.
+
+<img width="1790" height="490" alt="image" src="https://github.com/user-attachments/assets/69cc0476-82fe-4a0f-9a3d-aa16f1795b22" />
+
 * **Series Temporales & Inferencia Probabilística:** Incorporación de lags temporales e inferencia bayesiana para capturar la inercia del uso en horas previas y estimar escenarios bajo incertidumbre.
+
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/aaf2f278-c5b0-4283-94fd-20db23a275fb" />
+
+
 
 ### 3. Clustering Clásico vs. Difuso
 * A diferencia de la segmentación rígida de K-Means, el **Clustering Difuso (Fuzzy C-Means)** asigna grados de pertenencia fraccionales a múltiples grupos. Esto permite modelar las "horas de transición" meteorológicas o de demanda, donde las condiciones operativas coinciden parcialmente con más de un perfil.
 * **Lógica Difusa:** Traduce la percepción humana del clima (ej. "frío", "agradable", "bochornoso") en reglas de negocio continuas para explicar variaciones en el comportamiento de uso.
+
+<img width="1390" height="590" alt="image" src="https://github.com/user-attachments/assets/c74f4eb3-6a43-4675-b73d-11e2d9e66a9a" />
 
 ---
 
